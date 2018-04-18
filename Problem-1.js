@@ -10,5 +10,5 @@ const reverseWords = (str) => {
     wordsReversed.push(arr[i].split("").reverse().join("")); //looping through array of words
   } //this loop is pushing reversed words into our wordsReversed empty array
     
-  return wordsReversed.join(" "); // joining our array of split words to a string and voila
+  return wordsReversed.join(" "); // returning & joining our array of split words to a string and voila
 }
