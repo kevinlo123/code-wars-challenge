@@ -5,10 +5,8 @@
 const reverseWords = (str) => {
   let arr = str.split(" "); //splitting str argument to a an array of words
   let wordsReversed = []; //where our split words will be pushed
-    
-  for(let i = 0; i < arr.length; i++) {
-    wordsReversed.push(arr[i].split("").reverse().join("")); //looping through array of words
-  } //this loop is pushing reversed words into our wordsReversed empty array
-    
+  for(let i = 0; i < arr.length; i++) { //looping through array of words
+    wordsReversed.push(arr[i].split("").reverse().join("")); //this loop is pushing reversed words into our empty array
+  } 
   return wordsReversed.join(" "); // returning & joining our array of split words to a string and voila
 }
