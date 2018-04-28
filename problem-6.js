@@ -11,5 +11,5 @@ const solution = string => {
       stringArr[i] = ` ${stringArr[i]}`; 
     } //capitlized letters are found im setting there value but with a space in front of them using a template literal
   }
-  return stringArr.join(""); joining the array with the broken up camel casing string/strings
+  return stringArr.join(""); //joining the array with the broken up camel casing string/strings
 }
