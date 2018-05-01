@@ -74,4 +74,4 @@ class Dog extends Animal {
   greetMaster(){
     return `Hello ${this.master}`;
   }
- }
+}
