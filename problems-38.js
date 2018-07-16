@@ -6,11 +6,12 @@ i increments the value (initially 0)
 d decrements the value
 s squares the value
 o outputs the value into the return array
-Invalid characters should be ignored.*/
+Invalid characters should be ignored.
 
-parse("iiisdoso")  ==>  [8, 64]
+parse("iiisdoso")  ==>  [8, 64]*/
 
 // Return the output array, and ignore all non-op characters
+
 const parse = data => {
   let value = 0;
   const resArr = [];
