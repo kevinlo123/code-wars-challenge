@@ -18,6 +18,7 @@
   def product(arr)
 =end
 
+def product(arr)
   if arr == nil
     nil
   else
