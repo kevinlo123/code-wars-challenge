@@ -29,7 +29,7 @@ a or b might be [] (all languages except R, Shell). a or b might be nil or null 
 
 If a or b are nil (or null or None), the problem doesn't make sense so return false.
 
-If a or b are empty the result is evident by itself. /*
+If a or b are empty the result is evident by itself. */
 
 
 const comp = (array1, array2) => {
