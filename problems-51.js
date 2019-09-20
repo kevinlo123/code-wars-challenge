@@ -18,7 +18,7 @@ function findOdd(A) {
   });
   
   resArr.filter( numObj => {
-	  if (numObj.timesShown % 2) {
+    if (numObj.timesShown % 2) {
       answer = numObj.num
       return numObj.num
     }
