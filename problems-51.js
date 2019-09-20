@@ -25,4 +25,4 @@ function findOdd(A) {
   });
   
   return answer;
- }
+}
